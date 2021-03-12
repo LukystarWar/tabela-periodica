@@ -5,15 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/style.css">
-    <title>Teste</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" href="/assets/ico/tabela-periodica.png" type="image/x-icon">
+    <title>Tabela Períodica</title>
 </head>
 
 <body>
     <header>
-        <h1>Tabela Períodica</h1>
     </header>
     <section>
+        <div class="head">
+            <!-- <h1>Tabela Períodica</h1> -->
+        </div>
+        
         <div class="container">
             <div class="row">
                 <div class="bloco">
@@ -25,7 +29,7 @@
                     <label for="">He</label>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="l01">
                 <div class="group">
                     <div class="bloco">
                         <span>3</span>
@@ -34,6 +38,14 @@
                     <div class="bloco">
                         <span>4</span>
                         <label for="">Be</label>
+                    </div>
+                </div>
+                <div class="info" id="info">
+                    <div class="info-head">
+                        <h1>Titulo</h1>
+                    </div>
+                    <div class="info-body">
+                        <P>Corpo</P>
                     </div>
                 </div>
                 <div class="group">
@@ -532,8 +544,8 @@
         </div>
     </section>
 
-    <script src="/assets/jquery-3.6.0.js"></script>
-    <script src="/assets/script.js"></script>
+    <script src="/assets/js/jquery-3.6.0.js"></script>
+    <script src="/assets/js/script.js"></script>
 </body>
 
 </html>

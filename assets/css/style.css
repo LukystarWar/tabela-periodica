@@ -1,0 +1,136 @@
+:root{
+    --naoMetais                : #a1d344;
+    --metaisAlcalinos          : #f1b200;
+    --semiMetais               : #4db6ac;
+    --outrosMetais             : #a2c7d3;
+    --lantanideos              : #90e3e9;
+    --gasesNobres              : #3d9ee3;
+    --metaisAlcalinosTerrosos  : #eada00;
+    --halogenios               : #70cbeb;
+    --metaisTransicao          : #eb8e8e;
+    --actinidios               : #dcadd6;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head{
+    text-align: center;
+}
+h1{
+    font: bold 25px verdana;
+}
+body{
+    
+    background-color: #d59c2b;
+    background-image: url(/assets/img/bc2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;-
+}
+section{ 
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    
+    background-size: cover;
+    
+    
+}
+.container{
+    width: fit-content;
+    height: fit-content;
+    place-self: center;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.568);
+    zoom: 150%;
+    margin: 10px 0;
+}
+#l01{
+    margin-bottom: -52px;
+}
+.row{
+    display: flex;
+    justify-content:space-between;
+}
+.row:nth-child(8){
+    margin-top: 20px;
+}
+.row:nth-child(n+8){
+    justify-content: flex-end;
+}
+.group{
+    display: flex;
+}
+.bloco{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border: 1px solid black;
+    margin: 2px;
+}
+.bloco:hover{
+    filter: saturate(0.1%);
+    transition: ease-in-out 0.3s;
+}
+span{
+    font: normal 10px verdana;
+    margin-left: 2px;
+    position: absolute;
+}
+label{
+    font: normal 20px verdana;
+    font-weight: 600;
+    margin: auto;
+
+}
+.info{
+    background-color: #fff;
+    height: 156px;
+    width: 100%;
+    position: relative;
+    margin-top: -50px;
+    margin: -50px 2px 0 2px;
+}
+
+#b1, #b6,#b7,#b8,#b15,#b16,#b34{
+    background: var(--naoMetais);
+}
+#b3,#b11,#b19,#b37,#b55,#b87{
+    background: var(--metaisAlcalinos);
+}
+#b5,#b14,#b32,#b33,#b51,#b52,#b84{
+    background: var(--semiMetais);
+}
+#b13,#b31,#b49,#b50,#b81,#b82,#b83,#b113,#b114,#b115,#b116{
+    background: var(--outrosMetais);
+}
+#b57,#b58,#b59,#b60,#b61,#b62,#b63,#b64,#b65,#b66,#b67,#b68,#b69,#b70,#b71{
+    background: var(--lantanideos);
+}
+#b2,#b10,#b18,#b36,#b54,#b86,#b118{
+    background: var(--gasesNobres);
+}
+#b4,#b12,#b20,#b38,#b56,#b88{
+    background: var(--metaisAlcalinosTerrosos);
+}
+#b9,#b17,#b35,#b53,#b85,#b117{
+    background: var(--halogenios);
+}
+#b21,#b22,#b23,#b24,#b25,#b26,#b27,#b28,#b29,#b30,#b39,#b40,#b41,#b42,#b43,#b44,#b45,#b46,#b47,#b48,#b72,#b73,#b74,#b75,#b76,#b77,#b78,#b79,#b80,#b104,#b105,#b106,#b107,#b108,#b109,#b110,#b111,#b112{
+    background: var(--metaisTransicao);
+}
+#b89,#b90,#b91,#b92,#b93,#b94,#b95,#b96,#b97,#b98,#b99,#b100,#b101,#b102,#b103{
+    background: var(--actinidios);
+}
+
+ @media (max-width:768px){
+    section{
+        width: 768px;
+    }
+    .container{
+    } 
+
+}
